@@ -9,20 +9,20 @@ body {
   background-color: var(--background-color);
 }
 
-h1,
-h2,
-h3 {
+h1 {
   color: var(--heading-color);
   font-family: "Noto Serif", serif;
   font-style: italic;
-  margin: 30px auto;
+  margin: 30px auto 15px auto;
+  font-size: 30px;
 }
 
-h4 {
+h2 {
   color: #666666;
   font-family: "Noto Serif", serif;
   font-style: italic;
-  margin: 30px auto;
+  margin: 30px auto 15px auto;
+  font-size: 28px;
 }
 
 p {
