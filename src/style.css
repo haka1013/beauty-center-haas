@@ -39,36 +39,38 @@ footer {
 }
 
 .carousel {
-  margin: 20px auto;
+  margin: 80px auto 20px auto;
 }
 
-.header {
-  margin: 20px 0 0 0;
+h1,
+h2 {
+  margin-top: 80px;
 }
 
-footer,
-.header,
-#ueber-uns,
-#behandlungen,
-#preise {
+footer {
   padding: 0 10%;
 }
 
-.navigation {
-  display: flex;
-  justify-content: space-evenly;
+.navbar-nav {
   font-family: "Open Sans", sans-serif;
 }
 
-.navigation-item {
+.nav-link {
   text-decoration: none;
   color: var(--primary-color);
   transition: text-shadow 0.2s;
+  color: var(--primary-color);
+  margin: 0 30px;
 }
 
-.navigation-item:hover {
+.nav-link:hover {
   color: var(--heading-color);
   text-shadow: 0 0 0.65px var(--heading-color), 0 0 0.65px var(--heading-color);
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
 }
 
 #ueber-uns {
