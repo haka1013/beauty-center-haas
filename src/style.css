@@ -2,18 +2,22 @@
   --heading-color: #8f556c;
   --primary-color: #888888;
   --background-color: #f8f8f8;
-  --background-color-dark: #e2e2e2;
+  --background-color-dark: #e2e2e28a;
 }
 
 body {
   background-color: var(--background-color);
 }
 
+h1,
+h2 {
+  margin-top: 60px;
+}
+
 h1 {
   color: var(--heading-color);
   font-family: "Noto Serif", serif;
   font-style: italic;
-  margin: 30px auto 15px auto;
   font-size: 30px;
 }
 
@@ -21,7 +25,6 @@ h2 {
   color: #666666;
   font-family: "Noto Serif", serif;
   font-style: italic;
-  margin: 30px auto 15px auto;
   font-size: 28px;
 }
 
@@ -29,6 +32,7 @@ p {
   font-family: "Open Sans", sans-serif;
   color: var(--primary-color);
   font-size: 13px;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -42,17 +46,13 @@ footer {
   margin: 80px auto 20px auto;
 }
 
-h1,
-h2 {
-  margin-top: 80px;
-}
-
 footer {
   padding: 0 10%;
 }
 
 .navbar-nav {
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 .nav-link {
@@ -69,11 +69,11 @@ footer {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 150px;
   height: auto;
 }
 
-#ueber-uns {
+.background-grey {
   background-color: var(--background-color-dark);
 }
 
