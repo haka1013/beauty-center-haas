@@ -21,7 +21,8 @@ h1 {
   font-size: 30px;
 }
 
-h2 {
+h2,
+h6 {
   color: #666666;
   font-family: "Noto Serif", serif;
   font-style: italic;
@@ -60,15 +61,21 @@ footer {
   color: var(--primary-color);
   font-size: 11px;
   margin: 20px 0;
+  padding: 0 10%;
+}
+
+.highlight {
+  font-family: "Open Sans", sans-serif;
+  color: var(--primary-color);
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .carousel,
-.preise {
+.preise,
+.impressum,
+.datenschutz {
   margin: 80px auto 20px auto;
-}
-
-footer {
-  padding: 0 10%;
 }
 
 .navbar-nav {
@@ -109,4 +116,9 @@ img#kosmetikerinnen {
 
 .impressum-datenschutz {
   text-align: right;
+}
+
+.impressum-datenschutz a {
+  text-align: right;
+  color: var(--heading-color);
 }
