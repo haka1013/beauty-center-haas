@@ -123,3 +123,9 @@ p a {
   text-align: right;
   color: var(--heading-color);
 }
+
+@media (max-width: 768px) {
+  .reduced-spacing {
+    margin-top: -60px;
+  }
+}
