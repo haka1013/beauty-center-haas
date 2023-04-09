@@ -134,4 +134,7 @@ p a {
   .impressum-datenschutz {
     text-align: left;
   }
+  .carousel {
+    margin: 80px auto -20px auto;
+  }
 }
