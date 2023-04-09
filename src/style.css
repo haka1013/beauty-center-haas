@@ -49,11 +49,11 @@ h5 {
 }
 
 p,
-.preise {
+.preise,
+ul {
   font-family: "Open Sans", sans-serif;
   color: var(--primary-color);
   font-size: 13px;
-  margin-bottom: 30px;
 }
 
 footer {
@@ -118,7 +118,8 @@ img#kosmetikerinnen {
   text-align: right;
 }
 
-.impressum-datenschutz a {
+.impressum-datenschutz a,
+p a {
   text-align: right;
   color: var(--heading-color);
 }
