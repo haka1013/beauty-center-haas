@@ -28,7 +28,27 @@ h2 {
   font-size: 28px;
 }
 
-p {
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #913b8b;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #e25897;
+  font-size: 20px;
+}
+
+h5 {
+  font-family: "Open Sans", sans-serif;
+  color: #913b8b;
+  font-size: 16px;
+}
+
+p,
+.preise {
   font-family: "Open Sans", sans-serif;
   color: var(--primary-color);
   font-size: 13px;
@@ -42,7 +62,8 @@ footer {
   margin: 20px 0;
 }
 
-.carousel {
+.carousel,
+.preise {
   margin: 80px auto 20px auto;
 }
 
